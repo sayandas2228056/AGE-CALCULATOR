@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #4203a9, #90bafc); /* Gradient background */
+    padding: 10px;
+    color: #fff;
+}
+
+.calculator {
+    width: 100%;
+    max-width: 600px;
+    margin: 10% auto; /* Center horizontally */
+    text-align: center; /* Center text */
+}
+
+.calculator h1 {
+    font-size: 60px;
+}
+
+.calculator h1 span {
+    font-size: 40px;
+    color: #ffff7f;
+}
+
+.inputbox {
+    margin: 40px 0;
+    padding: 35px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow */
+}
+
+.inputbox h3 {
+    color: #ffff7f;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px; /* Add space below the heading */
+}
+
+.inputbox input {
+    width: 100%; /* Full width for input */
+    margin-bottom: 15px; /* Add space below the input field */
+    padding: 14px 20px 14px 40px; /* Add space for icon */
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    border-radius: 5px;
+    background: white;
+    position: relative;
+    background: url('path/to/calendar-icon.svg') no-repeat 10px center; /* Calendar icon */
+    background-size: 20px; /* Adjust size of the icon */
+}
+
+.inputbox button {
+    background: #ffff7f;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    font-size: 18px; /* Ensure font size is consistent */
+    transition: background 0.3s; /* Smooth transition for hover effect */
+}
+
+.inputbox button:hover {
+    background: #f0f0a0; /* Slightly darker shade for hover effect */
+}
